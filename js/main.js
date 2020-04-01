@@ -41,13 +41,6 @@ $(document).ready(function(){
         audio: './audio/episodio6.mp3'
     },
     {
-        title: 'Teorias de conspiracion actuales',
-        img:'./img/ep5.jpeg',
-        date: 'publicado el: 13/3/2020' ,
-        content: 'google nos escucha? el coronavirus es un experimento?',
-        audio: './audio/ep5def.mp3'
-    },
-    {
         title: 'Asesinos en serie: El zodiaco',
         img:'./img/ep4.jpg',
         date: 'publicado el: 10/3/2020',
