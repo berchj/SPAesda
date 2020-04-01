@@ -3,7 +3,7 @@
     margin: 0 auto;
 }
 body{
-    background: url('../img/foggy-1149180.jpg') center center/cover no-repeat;
+    background: url('../img/country-1209094.jpg') center center/cover no-repeat;
     
     
     
@@ -64,14 +64,16 @@ body{
     padding-left: 30px;
     padding-right: 30px;
     margin-right: 50px;
-    transition: 2000ms;
+    transition: 500ms ease-in-out;
     
 }
 
 #navbar a:hover{
+    text-decoration: underline;
     background:rgb(253, 72, 72);
     color:black;
-    text-decoration: underline black;
+    
+    
 }
 
 #post{
