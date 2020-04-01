@@ -186,15 +186,15 @@ article img{
 }
 #facebook:hover{
     background: rgb(88, 88, 240);
+    border-radius: 7px;
     
-    border-radius: 9px;
 }
 #instagram{
     transition: 100ms;
 }
 #instagram:hover{
     background: rgb(225,48,108);
-    border-radius: 9px;
-}
+    border-radius: 7px;
+    
 
 
