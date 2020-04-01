@@ -60,6 +60,7 @@ $(document).ready(function(){
         img:'./img/ep2.jpeg',
         date: 'publicado el: 25/2/2020',
         content:'Hablamos sobre que son las sectas y algunas de las mas famosas.'
+        
     },
     {
         title:'Demonología',
