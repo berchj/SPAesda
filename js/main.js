@@ -4,7 +4,7 @@ $(document).ready(function(){
     var about = $('#about');
     var episodes = $('#episodes');
     var change = $('#change');
-    var contact = $('#contacto')
+    
     
    change.click(function(e){
         e.preventDefault();

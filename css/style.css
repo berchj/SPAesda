@@ -215,7 +215,7 @@ article img{
 
 @media(min-width: 340px) and (max-width:413px){
     body{
-        overflow-x: hidden;
+        overflow-x: hidden !important;
     }
     
     *{
@@ -268,7 +268,8 @@ article img{
     }
    
 }
-@media(min-width:375){
+@media(width:375){
+    
     .episode{
 
         width: 500px !important;
@@ -284,7 +285,15 @@ article img{
         padding: 0cm !important; 
     }
 }
-@media(min-width:414px) and (max-width: 600px){
+@media(width:414){
+    body{
+        overflow-x: hidden;
+    }
+}
+@media(min-width:413px) and (max-width: 600px){
+    body{
+        overflow-x: hidden !important;
+    }  
     *{
         font-size: 10px;         
     }    
@@ -392,6 +401,7 @@ article img{
     *{
         font-size: 10px;         
     }
+    
     body{
         overflow-x: hidden;
     }   
@@ -442,6 +452,9 @@ article img{
     }
 }
 @media(min-width:1270px) and (max-width:1290px) and (orientation:landscape){
+    body{
+        overflow-x: hidden;
+    }  
     .episode{
 
         width: 287px !important;
@@ -459,6 +472,9 @@ article img{
     }
 }
 @media (min-width: 1020px) and (max-width:1030px) and (orientation:landscape){
+    body{
+        overflow-x: hidden;
+    }  
     .episode{
 
         width: 350px !important;
@@ -471,6 +487,95 @@ article img{
     .episode img{
         width: 350px !important;
         max-height: 180px !important;
+        margin: 0 auto !important;
+        padding: 0cm !important; 
+    }
+}
+@media(min-height:1000px){
+    body{
+        height: 1024px;
+    }
+    footer{
+        margin-top: 200px;
+    }
+}
+@media(width: 768px) and (height:1024 px) and (orientation:portrait){
+    .episode{
+
+        min-width: 550px !important;
+        padding: 0cm !important;
+        display: inline-block !important; 
+        
+        
+
+    }
+    .episode img{
+        width: 350px !important;
+        max-height: 180px !important;
+        margin: 0 auto !important;
+        padding: 0cm !important; 
+    }
+}
+@media (width:1024px) and (height:1366px){
+    .episode{
+
+        min-width: 350px !important;
+        padding: 0cm !important;
+        display: inline-block !important; 
+        
+        
+
+    }
+    .episode img{
+        width: 350px !important;
+        max-height: 180px !important;
+        margin: 0 auto !important;
+        padding: 0cm !important; 
+    }
+}
+
+@media (width:320px) and (height:568px){
+    body{
+        overflow-x: hidden;
+    }
+    #global{
+        margin: 0 auto;
+        font-size: 9px;
+    }
+    #about{
+        width:150px;
+        margin: 0cm;
+    }
+    #equipom,#julio,#stefany{
+        width:150px;
+        margin: 0cm;
+        padding: 0cm;
+    }
+    .sticky{
+        width: 5px;
+        padding: 0cm;
+        margin: 0cm auto;
+        border: 0cm;
+        display: block;
+        text-align: center;
+
+    }
+    .sticky img{
+        width:30px;
+        height:30px;
+    }
+    .episode{
+
+        width: 180px !important;
+        padding: 0cm !important;
+        display: block !important; 
+        
+        
+
+    }
+    .episode img{
+        width: 180px !important;
+        height: 180px !important;
         margin: 0 auto !important;
         padding: 0cm !important; 
     }
