@@ -195,6 +195,283 @@ article img{
 #instagram:hover{
     background: rgb(225,48,108);
     border-radius: 7px;
+}
+@media (max-width:667px) and (orientation:landscape){
+    .episode{
+
+        min-width: 450px !important;
+        padding: 0cm !important;
+        display: inline-block !important; 
+        
+
+    }
+    .episode img{
+        min-width: 450px !important;
+        max-height: 180px !important;
+        margin: 0 auto !important;
+        padding: 0cm !important; 
+    }
+}
+
+@media(min-width: 340px) and (max-width:413px){
+    body{
+        overflow-x: hidden;
+    }
     
+    *{
+        font-size: 10px;         
+    }    
+    #about{
+        margin: none !important;
+        padding: unset !important;
+    }
+    #post{
+        max-width: 55%;
+    }
+    #julio,#stefany{
+        padding: 0mm;
+        max-width: 75%;
+        margin: 0mm auto;
+        margin-top: 10px;
 
+    }
+    .sticky{
+       
+        margin: 0cm auto !important;
+        max-width: 50px;
+        
+    }
+    .sticky img{
+        max-width: 35px;
+        max-height: 35px;
+        position: relative;
+        right: 60px;
+        
+    }
+    .sticky h4{
+        position: relative;
+        left: 10px;
+    }
+    .episode{
 
+        width: 200px;
+        padding: 0cm !important;
+        display: block;
+        
+
+    }
+    .episode img{
+        max-width: 200px;
+        max-height: 180px;
+        margin: 0 auto;
+        padding: 0cm;
+    }
+   
+}
+@media(min-width:375){
+    .episode{
+
+        width: 500px !important;
+        padding: 0cm !important;
+        display: block !important; 
+        
+
+    }
+    .episode img{
+        width: 275px !important;
+        max-height: 180px !important;
+        margin: 0 auto !important;
+        padding: 0cm !important; 
+    }
+}
+@media(min-width:414px) and (max-width: 600px){
+    *{
+        font-size: 10px;         
+    }    
+    #about{
+        margin: none !important;
+        padding: unset !important;
+    }
+    #post{
+        max-width: 55%;
+    }
+    #julio,#stefany{
+        padding: 0mm;
+        max-width: 75%;
+        margin: 0mm auto;
+        margin-top: 10px;
+
+    }
+    .sticky{
+       
+        margin: 0cm auto !important;
+        max-width: 50px;
+        
+    }
+    .sticky img{
+        max-width: 35px;
+        max-height: 35px;
+        position: relative;
+        right: 60px;
+        
+    }
+    .sticky h4{
+        position: relative;
+        left: 10px;
+    }
+    .episode{
+
+        width: 240px !important;
+        padding: 0cm !important;
+        display: block !important; 
+        
+
+    }
+    .episode img{
+        width: 240px !important;
+        max-height: 180px !important;
+        margin: 0 auto !important;
+        padding: 0cm !important; 
+    }
+    
+}
+@media(min-width: 660px) and (max-width:813px) and (orientation:landscape){
+    *{
+        font-size: 10px;         
+    }
+    body{
+        overflow-x: hidden;
+    }   
+    #about{
+        margin: none !important;
+        padding: unset !important;
+    }
+    #post{
+        max-width: 55%;
+    }
+    #julio,#stefany{
+        padding: 0mm;
+        max-width: 75%;
+        margin: 0mm auto;
+        margin-top: 10px;
+
+    }
+    .sticky{
+       
+        margin: 0cm auto !important;
+        max-width: 50px;
+        
+    }
+    .sticky img{
+        max-width: 35px;
+        max-height: 35px;
+        position: relative;
+        right: 60px;
+        
+    }
+    .sticky h4{
+        position: relative;
+        left: 10px;
+    }
+    .episode{
+
+        width: 250px !important;
+        padding: 0cm !important;
+        display: inline-block !important; 
+        
+
+    }
+    .episode img{
+        width: 250px !important;
+        max-height: 180px !important;
+        margin: 0 auto !important;
+        padding: 0cm !important; 
+    }
+}
+@media (min-width:765px) and (max-width:801px){
+    *{
+        font-size: 10px;         
+    }
+    body{
+        overflow-x: hidden;
+    }   
+    #about{
+        margin: none !important;
+        padding: unset !important;
+    }
+    #post{
+        max-width: 55%;
+    }
+    #julio,#stefany{
+        padding: 0mm;
+        max-width: 75%;
+        margin: 0mm auto;
+        margin-top: 10px;
+
+    }
+    .sticky{
+       
+        margin: 0cm auto !important;
+        max-width: 50px;
+        
+    }
+    .sticky img{
+        max-width: 35px;
+        max-height: 35px;
+        position: relative;
+        right: 60px;
+        
+    }
+    .sticky h4{
+        position: relative;
+        left: 10px;
+    }
+    .episode{
+
+        width: 250px !important;
+        padding: 0cm !important;
+        display: inline-block !important; 
+        
+
+    }
+    .episode img{
+        width: 250px !important;
+        max-height: 180px !important;
+        margin: 0 auto !important;
+        padding: 0cm !important; 
+    }
+}
+@media(min-width:1270px) and (max-width:1290px) and (orientation:landscape){
+    .episode{
+
+        width: 287px !important;
+        padding: 0cm !important;
+        display: inline-block !important; 
+        
+        
+
+    }
+    .episode img{
+        width: 287px !important;
+        max-height: 180px !important;
+        margin: 0 auto !important;
+        padding: 0cm !important; 
+    }
+}
+@media (min-width: 1020px) and (max-width:1030px) and (orientation:landscape){
+    .episode{
+
+        width: 350px !important;
+        padding: 0cm !important;
+        display: inline-block !important; 
+        
+        
+
+    }
+    .episode img{
+        width: 350px !important;
+        max-height: 180px !important;
+        margin: 0 auto !important;
+        padding: 0cm !important; 
+    }
+}

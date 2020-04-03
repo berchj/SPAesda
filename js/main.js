@@ -1,4 +1,5 @@
 $(document).ready(function(){
+   
     //cargar paginas 
     var about = $('#about');
     var episodes = $('#episodes');
